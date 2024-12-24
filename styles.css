@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+.div1{
+	background-color:yellow;
+	height:200px;
+	text-align:center;
+	padding:30px;
+}
+p{
+	font-size:2em;
+}
+button{
+	padding:20px 40px;
+	text-align:center;
+	font-size:1.3em;
+}
