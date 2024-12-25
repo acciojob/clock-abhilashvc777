@@ -25,6 +25,7 @@ function change(){
 	}
 	if(hr>12){
 		hr = 1
+		hr++
 		a = "PM"
 	}
 	if(hr==12){
