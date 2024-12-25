@@ -11,7 +11,7 @@ let currentYear = d.getFullYear()
 let hr = d.getHours()
 let mi = d.getMinutes()
 let se = d.getSeconds()
-let total = `${currentmonth}/${currentDate}/${currentYear}`
+let total = `${currentmonth+1}/${currentDate}/${currentYear}`
 date.innerText = total
 let a = "AM"
 function change(){

@@ -6,10 +6,16 @@
 	padding:30px;
 }
 p{
+	background-color:white;
 	font-size:2em;
+	color:rgb(41, 9, 247);
+	margin:20px 12%;
 }
 button{
+	background-color:#303841;
+	border:none;
+	color:red;
 	padding:20px 40px;
 	text-align:center;
-	font-size:1.3em;
+	font-size:1.6em;
 }
