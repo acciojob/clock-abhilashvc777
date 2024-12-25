@@ -14,9 +14,7 @@ let se = d.getSeconds()
 let total = `${currentmonth+1}/${currentDate}/${currentYear}`
 date.innerText = total
 let a = "AM"
-if(hr>12){
-	hr=hr-12;
-}
+
 function change(){
 	if(se>=60){
 		se = 0
@@ -27,6 +25,7 @@ function change(){
 		hr++
 	}
 	if(hr>12){
+		hr=hr-12
 		a = "PM"
 	}
 	if(hr==12){
